@@ -81,3 +81,11 @@ g=[i for i in s if i in v]
 print(g,'The percentage of v in s is %.2f'%(len(g)*100/l))
 
 print("The string contains %s"%("Hello"))
+
+
+try:
+	x=10/0
+except ZeroDivisionError:
+	print("Divided By Zero Error")
+finally:
+	print("This is finally block")
